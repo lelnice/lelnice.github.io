@@ -1,0 +1,11 @@
+{
+  "include": [
+    "../vue-sfc-shim.d.ts",
+    "./**/*.ts",
+    "./**/*.vue",
+    "./.vitepress/**/*.ts",
+    "./.vitepress/**/*.vue"
+  ],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {}
+}

@@ -1,0 +1,113 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.vp-doc div[class*='language-'] {
+  margin: 16px 0;
+  overflow: unset;
+  background: transparent;
+  border-radius: none !important;
+}
+
+.vp-doc [class*='language-'] pre {
+  background-color: var(--vp-c-gray-dark-2);
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar,
+.vp-doc [class*='language-'] pre::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track,
+.vp-doc [class*='language-'] pre::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb,
+.vp-doc [class*='language-'] pre::-webkit-scrollbar-thumb {
+  background-color: $scroll-bar-color;
+  border-radius: 10px;
+}
+
+.vp-doc [class*='language-'] > button.copy {
+  background-color: $copy-button-color;
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  .xs-hide,
+  .gt-xs,
+  .sm,
+  .gt-sm,
+  .md,
+  .gt-md,
+  .lg,
+  .gt-lg,
+  .xl {
+    display: none !important;
+  }
+}
+
+@media (min-width: $breakpoint-sm-min) and (max-width: $breakpoint-sm-max) {
+  .sm-hide,
+  .xs,
+  .lt-sm,
+  .gt-sm,
+  .md,
+  .gt-md,
+  .lg,
+  .gt-lg,
+  .xl {
+    display: none !important;
+  }
+}
+
+@media (min-width: $breakpoint-md-min) and (max-width: $breakpoint-md-max) {
+  .md-hide,
+  .xs,
+  .lt-sm,
+  .sm,
+  .lt-md,
+  .gt-md,
+  .lg,
+  .gt-lg,
+  .xl {
+    display: none !important;
+  }
+}
+
+@media (min-width: $breakpoint-lg-min) and (max-width: $breakpoint-lg-max) {
+  .lg-hide,
+  .xs,
+  .lt-sm,
+  .sm,
+  .lt-md,
+  .md,
+  .lt-lg,
+  .gt-lg,
+  .xl {
+    display: none !important;
+  }
+}
+
+@media (min-width: $breakpoint-xl-min) {
+  .xl-hide,
+  .xs,
+  .lt-sm,
+  .sm,
+  .lt-md,
+  .md,
+  .lt-lg,
+  .lg,
+  .lt-xl {
+    display: none !important;
+  }
+}
