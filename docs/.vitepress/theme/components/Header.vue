@@ -1,9 +1,9 @@
 <template>
-  <MultiColor class="header">
+  <div class="header">
     <div class="header-content">
       <label @click="router.go('/')" class="logo">lelnice</label>
     </div>
-  </MultiColor>
+  </div>
 </template>
 <script lang="ts" setup>
 import MultiColor from './MultiColor.vue'
@@ -15,13 +15,17 @@ const router = useRouter()
   position: fixed;
   top: 0;
   z-index: 2000;
-  height: 3.75rem;
+  width: 100%;
+  height: 4.375rem;
 
   .header-content {
     display: flex;
     align-items: center;
     width: 100%;
     height: 100%;
+    background-color: #fff;
+    border-radius: 3.125rem;
+    box-shadow: 0 10px 10px 10px #999;
 
     .logo {
       margin-left: 1.25rem;

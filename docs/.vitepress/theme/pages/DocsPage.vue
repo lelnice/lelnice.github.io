@@ -27,10 +27,10 @@ provide('onContentUpdated', onContentUpdated)
 
   .outline-wrapper {
     position: fixed;
-    top: 3.75rem;
+    top: 4.375rem;
     right: 0;
     width: 20%;
-    height: calc(100vh - 3.75rem - 6.25rem);
+    height: calc(100vh - 4.375rem - 6.25rem);
 
     & > div {
       height: 100%;

@@ -24,6 +24,14 @@ $breakpoint-lg-max: 1919.99px;
 
 $breakpoint-xl-min: 1920px; */
 
+/* custom variables */
+:root {
+  --ln-bg: #eee;
+  --ln-wrapper-color: #ef724f;
+  --ln-inner-wrapper-color: #981082;
+  --ln-scroll-bar-color: var(--ln-wrapper-color);
+}
+
 /**
  * Colors Base
  *
@@ -36,9 +44,6 @@ $breakpoint-xl-min: 1920px; */
    * Colors Theme
    * -------------------------------------------------------------------------- */
 :root {
-  --ln-wrapper-color: #ef724f;
-  --ln-inner-wrapper-color: #981082;
-  --ln-scroll-bar-color: var(--ln-wrapper-color);
   --vp-c-white: #fff;
   --vp-c-white-soft: #f9f9f9;
   --vp-c-white-mute: #f1f1f1;

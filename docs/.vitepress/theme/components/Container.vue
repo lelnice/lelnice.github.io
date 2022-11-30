@@ -7,6 +7,7 @@
 <style lang="scss" scoped>
 .container {
   width: 100%;
-  min-height: calc(100vh - 3.75rem);
+  min-height: 100vh;
+  padding-top: 4.375rem;
 }
 </style>
