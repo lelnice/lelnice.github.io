@@ -13,5 +13,13 @@ export default defineConfig({
         theme: fileURLToPath(new URL('./theme', import.meta.url)),
       },
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          // 两种方式都可以
+          additionalData: '@import "@/theme/style/variables.scss";',
+        },
+      },
+    },
   },
 })

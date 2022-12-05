@@ -19,6 +19,7 @@ module.exports = {
     'value-no-vendor-prefix': null,
     'selector-class-pattern': null,
     'no-duplicate-selectors': null,
+    'function-no-unknown': null,
     'selector-pseudo-class-no-unknown': [
       true,
       {

@@ -1,13 +1,14 @@
 <template>
-  <div class="container">
+  <main class="container">
     <slot></slot>
-  </div>
+  </main>
 </template>
 <script lang="ts" setup></script>
 <style lang="scss" scoped>
-.container {
+main {
   width: 100%;
+  height: 100%;
   min-height: 100vh;
-  padding-top: 4.375rem;
+  padding-top: $header-height;
 }
 </style>
